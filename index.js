@@ -1,7 +1,6 @@
 const express = require("express");
 require("dotenv").config(); 
 const OpenAI = require("openai");
-const { resolve } = require("styled-jsx/css");
 
 const app = express();
 app.use(express.json()); 
